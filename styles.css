@@ -1,0 +1,90 @@
+body{
+    padding: 0 20px;
+}
+header{
+    margin: 20px 0;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    row-gap: 10px;
+}
+.grid-item{
+    background-color: aquamarine;
+    border-style: solid;
+    width: 200px;
+    height: 200px;
+}
+.box-container{
+    display: grid;
+    grid-template-columns:repeat(4,1fr);
+    grid-template-rows: repeat(4,1fr);
+    row-gap: 10px;
+}
+.box{
+    background-color: rgb(250, 237, 92);
+    border-style: solid;
+    width: 100px;
+    height: 100px;
+}
+.box-col{
+    width: 100px;
+    height: 50px;
+}
+.box-row{
+    width: 50px;
+    height: 100px;
+}
+.b0{
+    border: 0px black;
+}
+.b5{
+    border: 5px black;
+}
+.b10{
+    border: 10px black;
+}
+.p0{
+    padding: 0;
+}
+.p5{
+    padding: 5px;
+}
+.p10{
+    padding: 10px;
+}
+.m0{
+    margin: 0;
+}
+.m5{
+    margin: 5px;
+}
+.m10{
+    margin: 10px;
+}
+.container{
+    display: flex;
+    height: 500px;
+}
+.container span{
+    width: 100px;
+    height: 100px;
+    background-color: blueviolet;
+}
+.item1{
+    position: relative;
+    top:100px;
+}
+.item2{
+    position: relative;
+    top:300px;
+}
+.item3{
+    position: absolute;
+    top:1700px;
+}
+.item4{
+    position: absolute;
+    top:1900px;
+}
